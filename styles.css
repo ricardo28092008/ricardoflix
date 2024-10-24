@@ -1,0 +1,54 @@
+body{
+    color: white;
+    background: black;
+    margin: 15px;
+    font-family: "Playwrite GB S", cursive;
+    margin-bottom: 50px;
+}
+
+header{
+    border-bottom: solid 1px white;
+    padding: 10px;
+}
+
+.chamada{
+    background: blue;
+    padding-bottom: 90px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 37px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.categoria-videos img{
+    opacity: 0.7;
+height: 200px;
+}
+
+.categoria-videos img:hover{
+opacity: 1.7;
+border: 1px solid red;
+}
